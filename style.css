@@ -36,3 +36,78 @@ button {
   border: 0;
   outline: 0;
 }
+
+/* Header */
+
+.header {
+  width: 100%;
+  background-color: var(--Off-white);
+  padding: 2rem;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 5rem;
+}
+
+.menu {
+  width: 4rem;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--Off-white);
+}
+
+.content__news {
+  width: 100%;
+  padding: 0 2rem;
+  background-color: var(--Off-white);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section__information {
+  flex: 1;
+}
+
+.box__information {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__information {
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.text__information {
+  font-size: 1.5rem;
+  color: var(--Dark-grayish-blue);
+  line-height: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.button__information {
+  background-color: var(--Soft-red);
+  color: var(--Off-white);
+  padding: 2rem;
+  letter-spacing: 8px;
+  font-weight: 800;
+}
+
+.section__new {
+  flex: 1;
+}
