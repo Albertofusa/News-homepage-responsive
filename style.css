@@ -1,0 +1,38 @@
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+  --font-size: 62.5%;
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
