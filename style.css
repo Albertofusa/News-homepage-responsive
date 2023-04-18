@@ -79,7 +79,7 @@ button {
 }
 
 .section__information {
-  flex: 1;
+  width: 100%;
 }
 
 .box__information {
@@ -117,7 +117,7 @@ button {
 }
 
 .section__new {
-  flex: 1;
+  width: 100%;
   padding: 2rem;
   background-color: var(--Very-dark-blue);
 }
@@ -137,14 +137,14 @@ button {
   font-weight: 700;
   font-size: 1.7rem;
   margin-bottom: 1rem;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 }
 
 .text__new {
   color: var(--Grayish-blue);
   font-weight: 400;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .text__new__nomargin {
@@ -155,10 +155,37 @@ button {
 
 .content__list__new {
   width: 100%;
-  padding: 2rem;
+  padding: 5rem 2rem;
   display: grid;
+  gap: 4rem;
 }
 
 .img__list__new {
   width: 100px;
+}
+
+.box__list__new {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  background-color: var(--Off-white);
+}
+
+.number__list__new {
+  color: var(--Grayish-blue);
+  font-weight: 700;
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle__list__new {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text__list__new {
+  font-size: 1.4rem;
+  color: var(--Dark-grayish-blue);
+  line-height: 2.3rem;
 }
