@@ -67,13 +67,15 @@ button {
   background-color: var(--Off-white);
 }
 
+/* content-1 */
+
 .content__news {
   width: 100%;
   padding: 0 2rem;
   background-color: var(--Off-white);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .section__information {
@@ -103,11 +105,60 @@ button {
 .button__information {
   background-color: var(--Soft-red);
   color: var(--Off-white);
-  padding: 2rem;
-  letter-spacing: 8px;
+  padding: 1.5rem 2rem;
+  letter-spacing: 5px;
+  font-size: 1.4rem;
   font-weight: 800;
+  cursor: pointer;
+}
+
+.button__information:active {
+  transform: scale(0.99);
 }
 
 .section__new {
   flex: 1;
+  padding: 2rem;
+  background-color: var(--Very-dark-blue);
+}
+
+.box__new {
+  border-bottom: 1px solid var(--Off-white);
+}
+
+.title__new {
+  color: var(--Soft-orange);
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.subtitle__new {
+  color: var(--Off-white);
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+}
+
+.text__new {
+  color: var(--Grayish-blue);
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.text__new__nomargin {
+  margin-bottom: 0;
+}
+
+/* content-2 */
+
+.content__list__new {
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+}
+
+.img__list__new {
+  width: 100px;
 }
